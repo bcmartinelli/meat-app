@@ -1,90 +1,30 @@
-# Meat - Angular App Starter
+# Meat App
 
-## 1. Passos para começar
+Course: [Building Web Applications With the New Angular (4, 5 and 6)](https://www.udemy.com/angular-pt).
 
-### Clonando o Repositório
+Certified: [Bruno Campos Martinelli](https://www.udemy.com/certificate/UC-8HN2JRBG/)
 
-`git clone https://github.com/cod3rcursos/meat-app-starter.git`
+## 1. Steps to get started
 
-### Instalando as Dependências
+### Cloning the Repository
+
+`git clone https://github.com/martinelli4630/meat-app.git`
+
+### Installing the Dependencies
 
 `npm install`
 
-### Inicializando o Servidor
+### Initializing the Server
 
-`ng serve` ou `npm start`
+`ng serve` or `npm start`
 
-## 2. Iniciando o Backend
+## 2. Starting the Backend
 
-### Instalando o json-server
+### Installing json-server
 
 `npm install -g json-server`
 
-### Iniciando o serviço (raiz da aplicação)
+### Starting the service (application root)
 
 `json-server db.json`
 
-## Goodies
-
-Expressões regulares usadas na validação de formulários
-
-### Email Regex
-
-`/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i`
-
-### Number Regex
-
-`/^[0-9]*$/`
-
-## Upgrade para Angular 4.3
-
-Dependências dos pacotes que devem ficar em package.json:
-
-```
-"dependencies": {
-    "@angular/animations": "4.3.3",
-    "@angular/common": "4.3.3",
-    "@angular/compiler": "4.3.3",
-    "@angular/core": "4.3.3",
-    "@angular/forms": "4.3.3",
-    "@angular/platform-browser": "4.3.3",
-    "@angular/platform-browser-dynamic": "4.3.3",
-    "@angular/router": "4.3.3",
-    "admin-lte": "2.3.11",
-    "core-js": "2.4.1",
-    "font-awesome": "4.7.0",
-    "intl": "1.2.5",
-    "jquery": "3.1.1",
-    "reflect-metadata": "0.1.10",
-    "rxjs": "5.4.2",
-    "ts-helpers": "1.1.2",
-    "web-animations-js": "2.2.5",
-    "zone.js": "0.8.16"
-  },
-  "devDependencies": {
-    "@angular/cli": "1.2.7",
-    "@angular/compiler-cli": "4.3.3",
-    "@types/jasmine": "2.5.53",
-    "@types/express": "4.0.37",
-    "@types/jsonwebtoken": "7.2.3",
-    "@types/node": "7.0.5",
-    "codelyzer": "3.1.2",
-    "jasmine-core": "2.7.0",
-    "jasmine-spec-reporter": "4.1.1",
-    "json-server": "0.12.0",
-    "jsonwebtoken": "7.4.1",
-    "karma": "1.7.0",
-    "karma-chrome-launcher": "2.2.0",
-    "karma-cli": "1.0.1",
-    "karma-jasmine": "1.1.0",
-    "karma-remap-istanbul": "0.6.0",
-    "protractor": "5.1.2",
-    "ts-node": "3.3.0",
-    "tslint": "5.5.0",
-    "typescript": "2.4.2",
-    "webdriver-manager": "12.0.6"
-  }
-```
-## Créditos
-
-Todas as imagens usadas na aplicação são pertencentes a freepik.com
